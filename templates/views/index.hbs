@@ -33,10 +33,20 @@
                 font-size: large;
                 font-weight: bold;
             }
+            marquee{
+                background-color: aqua;
+                position: absolute;
+                top: 400px;
+                color:white;
+                margin-right: 18px;
+                padding: 5px;
+                background-color: #5d88e7;
+                border: 2px solid #0a07e9;
+            }
         </style>
     </head>
     <body>
-        <h1>{{>header}} </h1>
+        <h1>{{>header}}</h1>
         <center><b><p>This is My Home page</p></b>
         <form>
             <input type="text" id="input" placeholder="Enter Location" size=30% required>
@@ -59,8 +69,8 @@
             </tr>
         </table>
         </center>
-        <br><br><br><br>
-        <p>{{>footer}}</p>
+        
+        <p id="footer">{{>footer}}</p>
 
         <script src="/js/app.js"></script>
     </body>
