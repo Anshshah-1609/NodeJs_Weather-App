@@ -6,17 +6,30 @@
     <title>About us</title>
     <link rel="icon" href="./img/favicon.png">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         marquee{
-                background-color: aqua;
-                position: absolute;
-                top: 580px;
-                color:white;
-                margin-right: 18px;
-                padding: 5px;
-                background-color: #5d88e7;
-                border: 2px solid #0a07e9;
-            }
+            background-color: aqua;
+            position: absolute;
+            bottom: 50px;
+            color:white;
+            margin-right: 18px;
+            padding: 5px;
+            background-color: #5d88e7;
+            border: 2px solid #0a07e9;                
+        }
+        img:hover{
+            opacity: 0.6;
+            cursor: pointer;
+            transform: translateY(5px);
+        }
+        .fa{
+            padding: 1px;
+            font-size: 30px;
+            width: 50px;
+            text-decoration: none;
+            color:black;
+        }
     </style>
 </head>
 <body>
@@ -31,8 +44,10 @@
     </p>
     <img src="./img/mypic.JPG" height="250px" width="200px">
     <p><b>Ansh Shah</b></p>
+    <a href="https://youtube.com/channel/UCFGyQLJcYLu32DZREFFHuiQ" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/ansh_shah__16/" class="fa fa-instagram"></a>
+    <a href="mailto:anshshah0961@gmail.com" class="fa fa-envelope"></a>
     </center>
     <br><br><br><br>
-    <p>{{>footer}}</p>
 </body>
 </html>
