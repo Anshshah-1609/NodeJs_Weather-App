@@ -31,7 +31,7 @@ app.get('',(req,res) => {
 app.get('/help',(req,res)=>{
     res.render('help', {
         title:'Help',
-        name:'John Bruce',
+        name:'Ansh Shah',
         degree:'Web Developer',
         message:'This is message from help.hbs file'
     })
@@ -39,7 +39,7 @@ app.get('/help',(req,res)=>{
 app.get('/about',(req,res) => {
     res.render('about',{
         title:'About Us',
-        name:'Michhel Mars',
+        name:'Ansh Shah',
         degree:'App Designer',
         message:'This is message from about.hbs file'
     })

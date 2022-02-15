@@ -6,10 +6,32 @@
     <title>About us</title>
     <link rel="icon" href="./img/favicon.png">
     <link rel="stylesheet" href="/css/style.css">
+    <style>
+        marquee{
+                background-color: aqua;
+                position: absolute;
+                top: 580px;
+                color:white;
+                margin-right: 18px;
+                padding: 5px;
+                background-color: #5d88e7;
+                border: 2px solid #0a07e9;
+            }
+    </style>
 </head>
 <body>
     <h1>{{>header}}</h1>
-    <center><b><p>{{message}}</p></b></center>
+    <center>
+    <p><span style="font-weight:bold;font-size:16px;">First of all, what's the weather app?</span>
+        <br> it's a service which tells its users what weather they should expect in the next few hours, days, weeks. 
+        <br> And the more accurate the forecasts, the more beautiful - the interface, the more likely the program will surpass its competitors.
+        <br> Beyond sunshine and rain, AccuWeather can give details on wind speed, solar ultraviolet radiation (UV) levels, humidity, cloud cover, visibility, and more. 
+        <br> It's undoubtedly one of the best weather apps out there for the depth and precision of its data.
+        <br><br> <b style="font-size:16px;">This site uses mapbox.com API and weatherstack.com API.</b>
+    </p>
+    <img src="./img/mypic.JPG" height="250px" width="200px">
+    <p><b>Ansh Shah</b></p>
+    </center>
     <br><br><br><br>
     <p>{{>footer}}</p>
 </body>
